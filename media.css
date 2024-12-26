@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #A79277;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 75px; /* Increased space between navigation items */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #8B5E34;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#home {
+    
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#about-us {
+    background: #F5ECE3;
+}
+
+#gallery {
+    background: #FDF5E6;
+}
+
+#menu {
+    background: #F5ECE3;
+}
+
+#contact {
+    background: #FDF5E6;
+}
+
+footer {
+    background: #6B4226;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.hero {
+    background: url('assets/shop.jpg') no-repeat center center/cover;
+    padding: 100px 100px;
+    text-align: center;
+    color: white;
+}
+
